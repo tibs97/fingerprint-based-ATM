@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#466872</color>
+    <color name="colorPrimaryDark">#171d1f</color>
+    <color name="colorAccent">#5f9ea0</color>
+    <color name="colorBlue">#367e90</color>
+    <color name="colorOpposite">#60c002</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLight">#7F7F7F</color>
+    <color name="colorBorder">#e6e3e2</color>
+
+    <color name="promotion_blue">#367e90</color>
+    <color name="promotion_red">#ae5900</color>
+    <color name="promotion_ivory">#998501</color>
+</resources>

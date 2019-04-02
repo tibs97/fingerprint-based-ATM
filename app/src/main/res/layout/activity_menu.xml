@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.inducesmile.androidfingerprintlogin.menuActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <RelativeLayout
+        android:layout_width="371dp"
+        android:layout_height="502dp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="4dp">
+
+        <Button
+            android:id="@+id/addRF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add/Remove Fingerprint"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="391dp"
+            android:layout_below="@+id/changeP"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp" />
+
+        <Button
+            android:id="@+id/changeP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Password"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="315dp"
+            android:layout_below="@+id/viewB"
+            android:layout_alignEnd="@+id/cashW"
+            android:layout_marginTop="37dp" />
+
+        <Button
+            android:id="@+id/viewB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Balance"
+            tools:layout_editor_absoluteX="131dp"
+            tools:layout_editor_absoluteY="241dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/cashW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cash Withdrawl"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="164dp"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="42dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What would you like to do"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="84dp"
+            android:layout_marginTop="74dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
